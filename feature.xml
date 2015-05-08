@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="sk.vhm.linkedresources.feature"
+      label="Linked Resources Feature"
+      version="1.0.1.qualifier"
+      plugin="sk.vhm.linkedresources">
+
+   <description url="https://github.com/hlavacek/sk.vhm.linkedresources.feature">
+      This feature contains file and directory hyperlink detectors for Eclipse. It allows to link to files placed directly within your project.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://eclipse.org/org/documents/epl-v10.php">
+      http://eclipse.org/org/documents/epl-v10.php
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+   </requires>
+
+   <plugin
+         id="sk.vhm.linkedresources"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
